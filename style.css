@@ -25,14 +25,14 @@ body{
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
-a {                  /* A stands for link, so this section is setting the default characteristics of links. */
+a {     /* A stands for link, so this section is setting the default characteristics of links. */
 	color: #0000cc;
 	text-decoration: none;
 }
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em Arial, Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	padding: 0;
 	color: #cc0000;
 }
@@ -62,12 +62,12 @@ div.section {
 
 /* You can alter the links within a div with the following syntax */
 #plan a {
-	color: ##0000cc;
+	color: #0000cc;
 }
 
 /* This alters the appearance of the div with id="signup". */
 #signup {
-	background: #e8f8f8;
+	background: #cc0000;
 	text-align: center;
 }
 
@@ -80,7 +80,7 @@ div.section {
 /* This alters the appearance of the div with id="minileft", the div containing the images */
 .minileft {
 	float: left;
-	height: 100%;
+	height: 10%;
 	margin-top: 1.5em;
 	margin-right: 1em;
 }
